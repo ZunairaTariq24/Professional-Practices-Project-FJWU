@@ -35,38 +35,6 @@ The project combines **data engineering**, **statistical analysis**, **Natural L
 
 ---
 
-## Repository Structure
-
-```
-📦 fjwu-job-readiness-capstone
-├── 📁 data/
-│   ├── FJWU_Data_Fixed_Final.xlsx        # Raw survey data
-│   ├── cleaned_data.xlsx                 # Cleaned dataset
-│   ├── structurally_cleaned_data.xlsx    # Structurally normalized data
-│   ├── behavioral_integrity_analysis.xlsx
-│   └── Automated_Student_Analysis_Final.xlsx
-│
-├── 📁 notebooks/
-│   ├── Capstone_Project.ipynb            # Main statistical analysis notebook
-│   └── PP_Overall_Analysis.ipynb         # Professional practice analysis
-│
-├── 📁 scripts/
-│   ├── columns_combined.py
-│   ├── noise_removal.py
-│   ├── del_missing_rows.py
-│   └── insights.py
-│
-├── 📁 dashboard/
-│   └── fjwu_job_readiness.html           # Interactive analytics dashboard
-│
-├── 📁 report/
-│   └── Research_Project_Report.pdf
-│
-└── README.md
-```
-
----
-
 ## Methodology
 
 The project followed a structured 7-step data analytics pipeline:
@@ -86,11 +54,10 @@ The project followed a structured 7-step data analytics pipeline:
 | Category | Tools |
 |----------|-------|
 | Data Analysis | Python, Pandas, NumPy |
-| Visualization | Chart.js, Matplotlib |
+| Visualization | Excel, Matplotlib |
 | NLP | NLTK, custom text processing scripts |
 | Dashboard | HTML5, CSS3, JavaScript |
-| Data Storage | Excel (.xlsx) |
-| Documentation | Jupyter Notebook |
+| Data Storage | Excel (.xlsx) | 
 
 ---
 
@@ -105,19 +72,6 @@ git clone https://github.com/your-username/fjwu-job-readiness-capstone.git
 # Open the dashboard
 open dashboard/fjwu_job_readiness.html
 ```
-
----
-
-## Running the Analysis Notebooks
-
-```bash
-# Install dependencies
-pip install pandas numpy matplotlib nltk openpyxl jupyter
-
-# Launch Jupyter
-jupyter notebook notebooks/Capstone_Project.ipynb
-```
-
 ---
 
 ## Future Work
@@ -135,4 +89,4 @@ This project was completed as part of the **BS Computer Science Capstone Program
 
 ---
 
-*Department of Computer Science · Fatima Jinnah Women University · Batch 2025*
+*Department of Computer Science · Fatima Jinnah Women University · Batch 2023*
